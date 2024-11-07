@@ -213,10 +213,11 @@ main {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .horizontal-card {
+    margin-top: 4rem;
     display: flex;
     background-color: white;
     border-radius: 16px;
@@ -242,13 +243,10 @@ main {
     padding: 2rem;
 }
 
-.horizontal-card-content h3 {
-    margin-bottom: 1rem;
-}
-
 .horizontal-card-content p {
     font-size: clamp(0.9rem, 2vw, 1rem);
     line-height: 1.6;
+    margin: 1rem;
 }
 
 .horizontal-card-content p:last-child {
@@ -274,6 +272,10 @@ main {
 /* Text
 --------------------------------------------------*/
 .additional-content {
+    margin-top: 2rem;
+}
+
+.additional-content p {
     margin-top: 2rem;
 }
 

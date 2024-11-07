@@ -644,11 +644,11 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .grid-item img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 12px;
